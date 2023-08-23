@@ -1,0 +1,177 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* css variables*/
+:root{
+    --navbar-height: 59px;
+}
+
+#navbar{
+    display:flex;
+    align-items: center;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 14%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+img{
+    width: 90px;
+    height: 93px;
+    margin: -2px;
+    padding: 9px;
+}    
+    
+
+ul{
+    display:flex;
+    gap: 20px;
+    font-family: 'Borel', cursive;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
+
+ul li{
+    list-style: none;
+    font-size: 1.5rem;
+
+}
+
+ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+    border-radius: 20px;
+    
+}
+
+ul li a:hover{
+    color: yellowgreen;
+    background-color: white;
+    
+}
+
+#home{
+    display:flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    align-items:center;
+    justify-content: center;
+    height: 400x;
+    margin-top: -110px;
+}
+
+#home::before{
+    content: "";
+    background: url('./b1.jpg');
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#services{
+    margin: 20px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid brown;
+    border-radius: 23px;
+    margin:2px;
+    background-color:rgb(244, 246, 248);
+}
+#services .box img{
+    height: 150px;
+    width: 163px;
+    margin: auto;
+    display: block;
+}
+#services .box p{
+    padding:5px;
+    text-emphasis: bold;
+    
+}
+#services{}
+
+#client-section{
+    height: 300px;
+    margin-top: -100px;
+
+}
+
+#clients{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#clients img{
+    width: 600px;
+    height: 120px;
+    
+}
+
+.h-primary{
+    font-size: 2.8rem;
+    padding: 40px;
+    margin-top: 150px;
+    
+}
+
+.h-secondary{
+    font-size: 1.8rem;
+    padding: 12px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
+
+#home h1{
+    color:white;
+    text-align:center;
+    font-family: 'Borel', cursive;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#home p{
+    color:white;
+    text-align:center;
+    font-size: 1.5 rem;
+    font-family: 'Borel', cursive;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.center{
+    text-align:center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-size:2 rem;
+    text-emphasis:bold;
+    
+}
+
+.btn{
+    padding:6px 20px;
+    border: 2px solid white;
+    background-color:brown;
+    color:white;
+    margin:17px;
+    font-size:2.8 rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+
+
